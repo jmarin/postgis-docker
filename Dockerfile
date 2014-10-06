@@ -1,4 +1,6 @@
 # Docker container for Postgis
+# To build, run docker build --rm -t=jmarin/postgis
+# A container with a running postgis database can be started by running docker run -p 5432:5432 jmarin/postgis
 
 FROM jmarin/supervisor
 MAINTAINER Juan Marin Otero <juan.marin.otero@gmail.com>
